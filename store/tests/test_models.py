@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.test import TestCase
+
 from store.models import Category, Product
 
 
@@ -24,6 +25,7 @@ class TestCategoryModel(TestCase):
 
 
 class TestProductModel(TestCase):
+
     def setUp(self) -> None:
         Category.objects.create(name='django', slug='django')
         User.objects.create(username='admin')
