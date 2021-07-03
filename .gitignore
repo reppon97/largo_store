@@ -1,0 +1,8 @@
+venv
+htmlcov
+__pycache__
+.idea
+db.sqlite3
+.coverage
+migrations
+media
